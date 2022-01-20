@@ -1,0 +1,42 @@
+{
+    "name": "diecoding/yii2-telegram-bot",
+    "description": "Yii2 Telegram Bot Api Component",
+    "type": "yii2-component",
+    "keywords": [
+        "yii2",
+        "component",
+        "telegram",
+        "bot"
+    ],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/die-coding/yii2-telegram-bot/issues",
+        "source": "https://github.com/die-coding/yii2-telegram-bot"
+    },
+    "require": {
+        "php": ">=7.2",
+        "yiisoft/yii2": "~2.0.14",
+        "longman/telegram-bot": "^0.75.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "<7"
+    },
+    "autoload": {
+        "psr-4": {
+            "diecoding\\telegram\\": "src"
+        }
+    },
+    "authors": [{
+            "name": "Die Coding",
+            "email": "diecoding@gmail.com"
+        },
+        {
+            "name": "Sugeng Sulistiyawan",
+            "email": "sugeng.sulistiyawan@gmail.com"
+        }
+    ],
+    "repositories": [{
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }]
+}
