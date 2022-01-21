@@ -1,6 +1,6 @@
 <?php
 
-namespace diecoding\telegram\types\InputMedia;
+namespace diecoding\telegram\types\inputmedia;
 
 use diecoding\telegram\base\Type;
 

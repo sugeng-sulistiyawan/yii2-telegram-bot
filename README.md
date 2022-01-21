@@ -71,13 +71,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require diecoding/yii2-telegram-bot "*"
+composer require diecoding/yii2-telegram-bot "@dev"
 ```
 
 or add
 
 ```
-"diecoding/yii2-telegram-bot": "*"
+"diecoding/yii2-telegram-bot": "@dev"
 ```
 
 to the require section of your `composer.json` file.
@@ -132,15 +132,15 @@ stopMessageLiveLocation
 
 Usage
 -----
-first add to config.php
+first add to `config.php`
 ```php
 <?php
 'components' => [
-	'telegram' => [
-		'class' => 'diecoding\telegram\Telegram',
+    'telegram' => [
+        'class' => 'diecoding\telegram\Telegram',
         'botToken' => '5162536695:AAGdvgUMbNmTlL8sNW-SZHs32iHnTblPqEM',
         'botUsername' => 'diecoding_yii2_bot',
-	]
+    ]
 ]
 ?>
 ```
@@ -207,7 +207,7 @@ class SiteController extends Controller
 }
 ```
 
-## :bulb: Sample Code:
+## Sample Code:
 
 
 ### How to get user chat_id from the bot ?
@@ -221,7 +221,7 @@ $res = Yii::$app->telegram->sendMessage([
 ]);
 ```
 
-## <g-emoji class="g-emoji" alias="gem" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f48e.png">💎</g-emoji> New feature Command
+## New feature Command
 -----
 
 How to use the command

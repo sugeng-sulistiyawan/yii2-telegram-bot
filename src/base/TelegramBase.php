@@ -2,7 +2,7 @@
 
 namespace diecoding\telegram\base;
 
-use diecoding\telegram\types\InputMedia\InputMedia;
+use diecoding\telegram\types\inputmedia\inputmedia;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Stream;
 use yii\base\Component;
