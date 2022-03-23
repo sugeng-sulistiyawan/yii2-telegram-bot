@@ -61,7 +61,6 @@ class Input extends Component
         $this->_callback_query = new CallbackQuery($value);
     }
 
-
     public function getFrom()
     {
         return $this->_from;

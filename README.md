@@ -130,6 +130,12 @@ editMessageLiveLocation
 stopMessageLiveLocation
 ```
 
+Migration Table
+---------------
+```
+php yii migrate --migrationPath=@vendor/diecoding/yii2-telegram-bot/src/migrations
+```
+
 Usage
 -----
 first add to `config.php`

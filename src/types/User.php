@@ -32,21 +32,21 @@ class User extends Type
     public $is_bot;
 
     /**
-     * User‘s or bot’s first name
+     * User's or bot's first name
      * 
      * @var string
      */
     public $first_name;
 
     /**
-     * Optional. User‘s or bot’s last name
+     * Optional. User's or bot's last name
      * 
      * @var string
      */
     public $last_name;
 
     /**
-     * Optional. User‘s or bot’s username
+     * Optional. User's or bot's username
      * 
      * @var string
      */
